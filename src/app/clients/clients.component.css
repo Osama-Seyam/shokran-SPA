@@ -1,0 +1,37 @@
+#clients {
+  margin: 80px 0px 30px 0px;
+}
+
+#clients {
+  padding-top: 0;
+}
+
+.clients img {
+  max-width: 45%;
+  transition: all 0.4s ease-in-out;
+  display: inline-block;
+  padding: 15px 0;
+  filter: grayscale(100);
+}
+
+.clients img:hover {
+  filter: none;
+  transform: scale(1.1);
+}
+
+@media (max-width: 990px) {
+  #clients {
+    margin-top: 638px;
+  }
+}
+
+@media (max-width: 768px) {
+  #clients {
+    margin-top: 460px;
+  }
+
+
+  .clients img {
+    max-width: 40%;
+  }
+}

@@ -1,0 +1,42 @@
+.categories {
+  padding-top: 70px;
+  background-color: #f3f5fa;
+  padding-bottom: 40px;
+}
+
+.categories .icon-box {
+  background-image: url(../../assets/imgs/coffe.png);
+  background-size: 100% 100%;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 50px 0px;
+  transition: all ease-in-out 0.4s;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.categories .icon-box .icon {
+  margin-bottom: 10px;
+}
+
+.categories .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-family: 'Amiri', serif;
+  color: white !important;
+  text-align: center;
+  background-color: #F3A202;
+  padding: 10px 0px;
+}
+
+.categories .icon-box h4 a {
+  text-decoration: none;
+  color: white !important;
+  text-align: center;
+  transition: ease-in-out 0.3s;
+}
+
+.categories .icon-box:hover {
+  transform: translateY(-7px);
+}
